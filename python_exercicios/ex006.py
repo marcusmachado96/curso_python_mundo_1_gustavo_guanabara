@@ -1,0 +1,7 @@
+n = int(input("Digite um numero\n"))
+d = int(n*2)
+t = int(n*3)
+r = float(n** (1/2))
+print("O dobro de {} é {}".format(n, d,))
+print("O triplo de {} é {}".format(n, t,))
+print("A raiz de {} é {:.2f}".format(n, r,))
